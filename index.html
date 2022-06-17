@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Restaurante</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/colors.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="assets/img/logo-kenzie.png" alt="Logo da Kenzie Academy">
+            <h1 id="">Restaurante</h1>
+        </div>
+    </header>
+    <main class="container">
+        <section class="products">
+            <ul class="products-list">
+                <li class="product">
+                    <img src="./assets/img/kenzie_burgao.png" alt="Kenzie Burgão">
+                    <h3 class="title-1">Kenzie Burgão</h3>
+                    <p class="text-caption color-grey-3">Parágrafo descrevendo o prato</p>
+                    <div class="footer-products">
+                        <span class="title-2">R$ 28,00</span>
+                        <button id="01">
+                            <img src="./assets/img/cart-icon.png" alt="botão do carrinho">
+                        </button>
+                    </div>
+                </li>
+                <li class="product">
+                    <img src="./assets/img/refrigerante.png" alt="Refrigerante">
+                    <h3 class="title-1">Refrigerante</h3>
+                    <p class="text-caption color-grey-3">Parágrafo descrevendo o prato</p>
+                    <div class="footer-products">
+                        <span class="title-2">R$ 7,50</span>
+                        <button id="02">
+                            <img src="./assets/img/cart-icon.png" alt="botão do carrinho">
+                        </button>
+                    </div>
+                </li>
+                <li class="product">
+                    <img src="./assets/img/kenzie_burguinho.png" alt="Kenzie Burguinho">
+                    <h3 class="title-1">Kenzie Burguinho</h3>
+                    <p class="text-caption color-grey-3">Parágrafo descrevendo o prato</p>
+                    <div class="footer-products">
+                        <span class="title-2">R$ 22,00</span>
+                        <button id="03">
+                            <img src="./assets/img/cart-icon.png" alt="botão do carrinho">
+                        </button>
+                    </div>
+                </li>
+                <li class="product">
+                    <img src="./assets/img/frango_frito.png" alt="Frango frito">
+                    <h3 class="title-1">Frango frito</h3>
+                    <p class="text-caption color-grey-3">Parágrafo descrevendo o prato</p>
+                    <div class="footer-products">
+                        <span class="title-2">R$ 25,00</span>
+                        <button>
+                            <img src="./assets/img/cart-icon.png" alt="botão do carrinho">
+                        </button>
+                    </div>
+                </li>
+                <li class="product">
+                    <img src="./assets/img/batata_frita.png" alt="Batata frita">
+                    <h3 class="title-1">Batata frita</h3>
+                    <p class="text-caption color-grey-3">Parágrafo descrevendo o prato</p>
+                    <div class="footer-products">
+                        <span class="title-2">R$ 15,00</span>
+                        <button>
+                            <img src="./assets/img/cart-icon.png" alt="botão do carrinho">
+                        </button>
+                    </div>
+                </li>
+                <li class="product">
+                    <img src="./assets/img/sanduiche_frango_frito.png" alt="Sanduíche de frango frito">
+                    <h3 class="title-1">Sanduíche de frango frito</h3>
+                    <p class="text-caption color-grey-3">Parágrafo descrevendo o prato</p>
+                    <div class="footer-products">
+                        <span class="title-2">R$ 20,00</span>
+                        <button>
+                            <img src="./assets/img/cart-icon.png" alt="botão do carrinho">
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <aside>
+            <div class="flex header-carrinho">
+                <h4>Carrinho</h4>
+            </div>
+            <div class="carrinho">
+                <ul class="products-selected">
+                    <li class="flex">
+                        <div class="product-image">
+                            <img src="./assets/img/sanduiche_frango_frito.png" alt="Sanduíche de frango frito">
+                        </div>
+                        <div>
+                            <div class="flex">
+                                <h3 class="title-2 mini-descrição">Sanduíche de frango frito</h3>
+                                <button class="trash-btn">
+                                    <img src="./assets/img/trash.png" alt="ícone lixeira">
+                                </button>
+                            </div>
+                            <div class="footer-cart">
+                                <p class="text-caption">R$ 20,00</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="totalizador">
+                    <h4 class="title-3">Quantidade</h4>
+                    <h4 class="title-3">4</h4>
+                </div>
+                <div class="totalizador">
+                    <h4 class="title-3">Total</h4>
+                    <h4 class="title-3">R$ 67,00</h4>
+                </div>
+                <button class="btn-finalizador-pedido">Realizar pedido</button>
+            </div>
+        </aside>
+    </main>
+    <script src="./assets/script/database.js"></script>
+    <script src="./assets/script/script.js"></script>
+</body>
+
+</html>
